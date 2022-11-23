@@ -9,9 +9,9 @@ function compute() {
         var year = new Date().getFullYear() + parseInt(years);
         var resultAmount = p * rate * .01 * years;
         // Making the last word of each of these spands to be highlighted.
-        var resultTest = "If you deposit " + "<span class='highlight'>" + p + "</span>" + "<br />";
-        var resultTest1 = "at an interest rate of " + "<span class='highlight'>" + rate + "%</span>" + "<br />";
-        var resultTest2 = "You will receive an amount of " + "<span class='highlight'>" + Math.round(resultAmount) + "</span>" + "<br />";
+        var resultTest = "If you deposit " + "<span class='highlight'>" + p + ",</span>" + "<br />";
+        var resultTest1 = "at an interest rate of " + "<span class='highlight'>" + rate + "%.</span>" + "<br />";
+        var resultTest2 = "You will receive an amount of " + "<span class='highlight'>" + Math.round(resultAmount) + ",</span>" + "<br />";
         var resultTest3 = "In the year " + "<span class='highlight'>" + year + "</span>" + "<br />";
         var finalResultString = resultTest + resultTest1 + resultTest2 + resultTest3;
 
@@ -26,7 +26,7 @@ function compute() {
 }
 
 function updateRate() {
-    var rateval = document.getElementById("rate").value;
+    var rateval = document.getElementById("rate").value + "%";
 
     document.getElementById("rate_val").innerText = rateval;
 }
