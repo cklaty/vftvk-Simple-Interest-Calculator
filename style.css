@@ -1,70 +1,43 @@
-body {background-color:white;}
-h1{color:gray;
-    margin-block-start: 1em;
-    margin-inline-start: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: medium;
-}
-/* div {
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 80px;
-  } */
-  h3 {
-    display: block;
-    font-size: 1.0em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: black;
+  color: white;
+  font-family: arial;
 }
 
-/* .flex-container
-{
-    display: flex;
-} */
+h1 {
+  color: gray;
+  font-family: verdana;
+  font-size: 1.6em;
+}
 
-/* .flex-container > div {
-    justify-content: space-between;
-    width: 100%;
-    margin: 10px;
-    padding: 20px;
-} */
+.div1 {
+  background-color: white;
+  color: black;
+  width: 400px;
+  padding: 20px;
+  border-radius: 25px;
+  margin: auto
+}
+.div2 {
+  padding-left: 25px;
+  border-radius: 25px;
+  margin: auto;
+}
 
-/* .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    text-align: left;
-    width: 400px;
-    margin: .5rem;
-    padding-left: 80px;
-} */
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    text-align: right;
-    width: 400px;
-    line-height: 26px;
-    margin-bottom: 10px;
-  }
+label{
+  display:inline-block;
+  width: 115px;
+  padding: 5px;
+}
 
-/* label {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    text-align: right;
-    width: 400px;
-    line-height: 26px;
-    margin-bottom: 10px;
-  } */
-  
-  input {
-    height: 20px;
-    flex: 0 0 200px;
-    margin-left: 10px;
-  }
+button{
+  margin : 5px;
+}
+
+.highlight{
+  background-color: yellow;
+}
+
+footer{
+  padding-top: 20px;
+}
